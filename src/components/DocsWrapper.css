@@ -1,0 +1,35 @@
+.content{
+    margin: 4rem;
+    font-size: 1.3rem;
+}
+
+.content h1{
+    font-family:"Poppins";
+    color: goldenrod;
+}
+
+.content h3{
+    font-family:"Poppins";
+    font-size: 1.9rem;
+}
+
+.content p{
+    font-size: 1.5rem;
+}
+
+.content li{
+    padding-top: 1rem;
+    font-family: "poppins";
+    font-weight: 300;   
+    font-size: 1.5rem;
+}
+
+.content ul, ol{
+    padding-left: 3.2rem;
+    color: rgb(118, 118, 118);
+}
+
+.content hr{
+    margin: 2rem 0;
+    opacity: 0.2;
+}

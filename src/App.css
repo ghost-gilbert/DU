@@ -1,0 +1,24 @@
+main{
+    display: grid;
+    grid-template-columns: 25% 1fr 25%;
+    position: relative;
+}
+
+main::before{
+    content: "";
+    position: fixed;
+    background-image: url(/assets/edited_backlogo.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.5;
+    top: 0;
+    z-index: -1;
+}
+
+@media (max-width:425px) {
+    main{
+        grid-template-columns: 1fr;
+    }
+}

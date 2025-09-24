@@ -1,0 +1,31 @@
+{
+"menus": [
+  {
+    "heading": "Hello",
+    "link": "Visual Red the gate of heaven"
+  },
+  {
+    "link": "Visual Red the gate of heaven"
+  },
+  {
+    "heading": "Go Die",
+    "link": "Visual Red the gate of heaven"
+  },
+  {
+    "link": "Visual Red the gate of heaven"
+  },
+  {
+    "link": "Visual Red the gate of heaven"
+  },
+  {
+    "link": "Visual Red the gate of heaven"
+  }
+],
+"document": {
+    "heading": "Article",
+    "author": "Kumar Harsh",
+    "date": "02/06/2025",
+    "category": "Guide",
+    "path": "../docs/Article"
+  }
+}

@@ -1,0 +1,23 @@
+.right-sidebar{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    padding: 3rem;
+}
+
+.right-sidebar h2{
+    color: white;
+}
+
+.right-sidebar h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+@media (max-width:425px) {
+    .right-sidebar{
+        display: none;
+    }
+}
+
+

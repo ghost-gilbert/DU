@@ -1,0 +1,76 @@
+.content h2,h3,h4{
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.content h2{
+    font-size: 3rem;
+}
+
+.content h5{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.content h3{
+    font-size: 2.5rem;
+}
+
+.content p{
+    font-size: 1.4rem;
+    /* padding-left: 3rem; */
+    margin-top: 1.2rem;
+    line-height: 2.5rem;
+    color: #d5d5d5;
+}
+
+.NOTE{
+    background-color: rgba(157, 0, 255, 0.343);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    border: 2px solid rgb(157, 0, 255);
+}
+
+.NOTE a{
+    text-decoration: none;
+}
+
+.content ol{
+    padding-left: 3rem;
+}
+
+.content p{
+    font-size: 1.5rem;
+}
+
+.content strong{
+    color: #6ca8d4;
+}
+
+.content a{
+    color: #6ca9d4;
+}
+
+.content .button{
+    margin: 3rem 2rem;
+}
+
+.content .button a{
+    color: #131314;
+    background-color: #4a96cc;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 1rem 3.5rem;
+    border-radius: 0.5rem;
+}
+
+.TIP{
+    background-color: rgba(36, 233, 36, 0.464);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0, 255, 0);
+}
+
+

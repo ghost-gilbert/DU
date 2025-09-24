@@ -1,0 +1,15 @@
+{
+"menus": [
+  {
+    "heading": "Hello",
+    "link": "Visual Red the gate of heaven"
+  }
+],
+"document": {
+    "heading": "testStyling",
+    "author": "Kumar Harsh",
+    "date": "20/09/2025",
+    "category": "Test",
+    "path": "../docs/testStyling"
+  }
+}
