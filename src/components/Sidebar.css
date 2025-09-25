@@ -113,6 +113,10 @@
     display: none;
 } */
 
+.titleMenu .rightArrow{
+    display: none;
+}
+
 
 
 @media (max-width:425px) {
@@ -139,9 +143,6 @@
         height: 30rem;
     }
 
-    input{
-
-    }
 
     .left-sidebar ul{
         max-width: 35rem;
@@ -154,6 +155,7 @@
     }
     
     .titleMenu .rightArrow{
+        display: flex;
         filter: invert();
         height: 2rem;
         position: absolute;
