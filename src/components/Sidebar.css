@@ -117,9 +117,9 @@
     display: none;
 } */
 
-/* .titleMenu .rightArrow{
+.titleMenu .rightArrow{
     display: none;
-} */
+}
 
 
 
@@ -159,6 +159,7 @@
     }
     
     .titleMenu .rightArrow{
+        display: block;
         filter: invert();
         height: 2rem;
         position: absolute;
