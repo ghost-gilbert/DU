@@ -1,7 +1,7 @@
 import { react, useState } from 'react'
 // import { useState } from "react";
-import Logo from '../assets/logo.png'
-import Radio from '../assets/radio_button.svg'
+// import Logo from '../assets/logo.png'
+import Home from '../assets/home.png'
 import { IoIosArrowDown } from "react-icons/io";
 import { CiSearch } from "react-icons/ci";
 import { Link } from "react-router-dom";
@@ -21,7 +21,7 @@ const Navbar = ({ onToggleSidebar }) => {
         <>
             <div id="navigationBar">
                 <div className="portalLinks">
-                    <Link><img src={Radio} alt="error loading" onClick={onToggleSidebar} /></Link>
+                    <Link to="/"><img className="home" src={Home} alt="error loading" onClick={onToggleSidebar} /></Link>
                     {/* <Link to="../"><img src={Radio} alt="error loading" onClick={onToggleSidebar} /></Link> */}
                     <span className="horizontalBar golden-border"></span>
                     <ul>

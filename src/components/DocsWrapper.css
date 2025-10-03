@@ -33,3 +33,9 @@
     margin: 2rem 0;
     opacity: 0.2;
 }
+
+@media (max-width:425px){
+    .content{
+        margin: 2rem;
+    }
+}

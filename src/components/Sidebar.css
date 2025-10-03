@@ -109,13 +109,17 @@
     color: #ffffff;
 }
 
+/* .left-sidebar .rightArrow{
+    display: none;
+} */
+
 /* img{
     display: none;
 } */
 
-.titleMenu .rightArrow{
+/* .titleMenu .rightArrow{
     display: none;
-}
+} */
 
 
 
@@ -140,12 +144,12 @@
     }
     
     .left-sidebar .titleMenu{
-        height: 30rem;
+        /* height: 30rem; */
+        height: 70vh;
     }
 
-
     .left-sidebar ul{
-        max-width: 35rem;
+        max-width: 38rem;
     }
 
     .titleMenu{
@@ -155,11 +159,10 @@
     }
     
     .titleMenu .rightArrow{
-        display: flex;
         filter: invert();
         height: 2rem;
         position: absolute;
-        right: -5px;
+        right: 1px;
         top: 50%;
     }
     
@@ -179,4 +182,5 @@
     .change{
         rotate: 180deg;
     }
+
 }

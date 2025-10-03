@@ -89,7 +89,7 @@ const Sidebar = () => {
             <div className="left-sidebar" style={{
                 left: isOpen ? '0' : '-95%',
                 transition: 'left 0.3s ease', // Smooth transition
-            }} onClick={toggleSidebar}>
+            }} >
                 <h2>Authority List</h2>
                 <div className="menu">
                     <input type="search" id="filterSearch" placeholder="Filter by title" />
@@ -110,7 +110,7 @@ const Sidebar = () => {
                         {/* <li open className="toggle-menu">
                         <div id="output"></div>
                         </li> */}
-                        <img className={isOpen ? "change rightArrow" : "rightArrow"} src={OpenClose} alt="" />
+                        <img className={isOpen ? "change rightArrow" : "rightArrow"} onClick={toggleSidebar} src={OpenClose} alt="" />
                     </ul>
                 </div>
                 <button className="download"><a href="#">Download PDF</a></button>
