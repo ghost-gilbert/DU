@@ -8,14 +8,20 @@ import Component from './components/DocsWrapper';
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import Resource from './components/Resource'
+import Home from './components/Home.jsx'
 import './components/Main.css'
+import Main from './components/Main.jsx'
 import './components/Markdown.css'
 import './index.css';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Main/>,
+  },
+  {
+    path: "/home",
+    element: <Home/>,
   },
   {
     path: "/documentation",

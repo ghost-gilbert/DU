@@ -63,3 +63,10 @@ h1,h2,h3,h4{
     font-size: 1.4rem;
     margin-top: 2rem;
 }
+
+.button{
+    padding: 1.1rem;
+    font-family: system-ui;
+    font-weight: 600;
+    margin-top: 1rem;
+}

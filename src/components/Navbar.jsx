@@ -21,7 +21,7 @@ const Navbar = ({ onToggleSidebar }) => {
         <>
             <div id="navigationBar">
                 <div className="portalLinks">
-                    <Link to="/"><img className="home" src={Home} alt="error loading" onClick={onToggleSidebar} /></Link>
+                    <Link to="/home"><img className="home" src={Home} alt="error loading" onClick={onToggleSidebar} /></Link>
                     {/* <Link to="../"><img src={Radio} alt="error loading" onClick={onToggleSidebar} /></Link> */}
                     <span className="horizontalBar golden-border"></span>
                     <ul>
