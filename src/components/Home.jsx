@@ -42,7 +42,7 @@ function Home() {
         <header>
           <Navbar />
         </header>
-          <div className='home'>
+          <div className='home_page'>
             <h1 className='Main-head'>Latest Content</h1>
             <div className="border golden-border">
               <Link className="heading font-medium " to={latestDoc.path}><h1 className="heading font-medium">{latestDoc.heading}</h1></Link>
