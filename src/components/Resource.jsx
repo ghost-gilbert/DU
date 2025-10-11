@@ -1,9 +1,9 @@
 import React from 'react'
 import './Resource.css'
 
-const Resource = () => {
+const Resource = ({ isOpen }) => {
   return (
-    <div className="right-sidebar">
+    <div className={isOpen ? "correct-sidebar" : "right-sidebar"}>
       <h2>Additional resources</h2>
     </div>
   )

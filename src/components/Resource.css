@@ -18,6 +18,9 @@
     .right-sidebar{
         display: none;
     }
+    .correct-sidebar{
+        display: block;
+    }
 }
 
 

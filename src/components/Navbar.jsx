@@ -1,4 +1,4 @@
-import { react, useState } from 'react'
+import React, { useState } from 'react'
 // import { useState } from "react";
 // import Logo from '../assets/logo.png'
 import Home from '../assets/home.png'
@@ -9,7 +9,7 @@ import './Navbar.css'
 import './GoldenStyle.css'
 import { BiRadioCircle } from 'react-icons/bi';
 
-const Navbar = ({ onToggleSidebar }) => {
+const Navbar = ({ onToggleResources }) => {
 
     const [toggleClass, setToggleClass] = useState(false)
 
@@ -21,19 +21,19 @@ const Navbar = ({ onToggleSidebar }) => {
         <>
             <div id="navigationBar">
                 <div className="portalLinks">
-                    <Link to="/home"><img className="home" src={Home} alt="error loading" onClick={onToggleSidebar} /></Link>
+                    <Link to="/home"><img className="home" src={Home} alt="error loading" /></Link>
                     {/* <Link to="../"><img src={Radio} alt="error loading" onClick={onToggleSidebar} /></Link> */}
                     <span className="horizontalBar golden-border"></span>
                     <ul>
                         <li><Link to="/Documentation" className='document-list'>Documentation</Link><IoIosArrowDown className='material-symbols-outlined not-imp' /></li>
-                        <li><Link to="#" onClick={handleToggle} className='not-imp'>Upload</Link><IoIosArrowDown  className={ toggleClass ? 'hovered material-symbols-outlined not-imp' : 'material-symbols-outlined not-imp'} /></li>
+                        <li><Link to="#" onClick={handleToggle} className='not-imp'>Upload</Link><IoIosArrowDown className={toggleClass ? 'hovered material-symbols-outlined not-imp' : 'material-symbols-outlined not-imp'} /></li>
                         <li><Link to="#" className='not-imp'>Species</Link><IoIosArrowDown className='material-symbols-outlined not-imp' /></li>
                         <li><Link to="#" className='not-imp'>Special</Link><IoIosArrowDown className='material-symbols-outlined not-imp' /></li>
                     </ul>
                 </div>
                 <div className="ExtraActivitybutton">
                     <CiSearch className='material-symbols-outlined' />
-                    <a href="#">Sign in</a>
+                    <a href="#" onClick={onToggleResources}>Sign in</a>
                 </div>
             </div>
 

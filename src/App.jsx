@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import Resource from './components/Resource'
@@ -9,21 +9,19 @@ import './components/mediascreen.css'
 
 function App() {
 
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isResourceOpen, setIsResourceOpen] = useState(false);
 
-  const toggleSidebar = () => {
-    setIsSidebarOpen((prev) => !prev);
-  };
+  const toggleResource = () => setIsResourceOpen((prev) => !prev);
 
   return (
     <>
       <header>
-        <Navbar onToggleSidebar={toggleSidebar} />
+        <Navbar onToggleResources={toggleResource} />
       </header>
       <main>
-        <Sidebar isOpen={isSidebarOpen} />
-        <Main />
-        <Resource />
+        <Sidebar/>
+        <Main/>
+        <Resource isOpen={isResourceOpen}/>
       </main>
     </>
   )
