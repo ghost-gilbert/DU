@@ -1,0 +1,31 @@
+{
+"menus": [
+  {
+    "heading": "Hello",
+    "link": "Visual Red the gate of heaven"
+  },
+  {
+    "link": "Visual Red the gate of heaven"
+  },
+  {
+    "heading": "Go Die",
+    "link": "Visual Red the gate of heaven"
+  },
+  {
+    "link": "Visual Red the gate of heaven"
+  },
+  {
+    "link": "Visual Red the gate of heaven"
+  },
+  {
+    "link": "Visual Red the gate of heaven"
+  }
+],
+"document": {
+    "heading": "Electron+Flask",
+    "author": "Kumar Harsh",
+    "date": "31/12/2025",
+    "category": "Code",
+    "path": "../docs/electronFlask"
+  }
+}
