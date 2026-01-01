@@ -1,6 +1,6 @@
 # This is a Tutorial written by author Gilbert to show how a electron app is create with flask especially in Rasperry Pi
 
-Main Folder structure
+<p>Main Folder structure</p>
 
 ```
 App
@@ -48,7 +48,8 @@ electron
 '--> scipt.js
 '--> resource
     '--> flask
-       '--> main ```
+       '--> main 
+```
     
 <p>main (It is the binary app created after running the pyinstaller command, You can find it in the dist folder)</p>
 
