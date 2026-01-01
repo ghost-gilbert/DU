@@ -2,21 +2,21 @@
 
 Main Folder structure
 
-<pre>
+```
 App
 '--> electron
 '--> flask_app
-</pre>
+```
 
 ## Flask App Structure
 
-<pre>
+```
 flask_app
 '-> static
 '-> templates
 '-> python files
 '-> requirements.txt
-</pre>
+```
 
 <p> static contains the CSS files </p>
 <p> template contains the HTML files </p>
@@ -27,18 +27,18 @@ flask_app
 
 <p>Make sure to install the pyinstaller first</p>
 
-<pre>$ pip install pyinstaller</pre>
+```$ pip install pyinstaller```
 
-<pre>$ pyinstaller   --onefile   --add-data "templates:templates"   --add-data "static:static"   main.py</pre>
+```$ pyinstaller   --onefile   --add-data "templates:templates"   --add-data "static:static"   main.py```
 
 <h3>Now we can prepare the electron app:</h3>
 
-<pre>$ npm init -y</pre>
+```$ npm init -y```
 
 
 <p>This folder structure for electron is like this:</p>
 
-<pre>
+```
 electron
 '--> node module (created automatically) 
 '--> package.json (created automatically)
@@ -48,14 +48,14 @@ electron
 '--> scipt.js
 '--> resource
     '--> flask
-       '--> main </pre>
+       '--> main ```
     
-main (It is the binary app created after running the pyinstaller command, You can find it in the dist folder)
+<p>main (It is the binary app created after running the pyinstaller command, You can find it in the dist folder)</p>
 
 <p><em>Move the flask app to resource->flask</em></p>
 
 **in package.json paste this**
-<pre>
+```
 {
   "name": "Your App Name",
   "version": "1.0.0",
@@ -83,14 +83,14 @@ main (It is the binary app created after running the pyinstaller command, You ca
     }
   }
 }
-</pre>
+```
 
 ***Install npm bilder using node's npm***
 
-> While running commands below you must have to be in electron folder not in the flask_app
+>While running commands below you must have to be in electron folder not in the flask_app
 
-<pre>$ npm install --save-dev electron-builder</pre>
+```$ npm install --save-dev electron-builder```
 
-<pre>$ npm build</pre>
+```$ npm build```
 
-`You are ready to go, The appimage should be in the dist folder with name (Your App Name-1.0.0-arm64.appimage)`
+**You are ready to go, The appimage should be in the dist folder with name (Your App Name-1.0.0-arm64.appimage)**
