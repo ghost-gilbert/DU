@@ -1,24 +1,19 @@
 {
 "menus": [
   {
-    "heading": "Hello",
-    "link": "Visual Red the gate of heaven"
+    "heading": "Flask App Structure"
   },
   {
-    "link": "Visual Red the gate of heaven"
+    "heading": "Install and Setup Pyinstaller"
   },
   {
-    "heading": "Go Die",
-    "link": "Visual Red the gate of heaven"
+    "heading": "Electron Folder Structure"
   },
   {
-    "link": "Visual Red the gate of heaven"
+    "heading": "code for package.json"
   },
   {
-    "link": "Visual Red the gate of heaven"
-  },
-  {
-    "link": "Visual Red the gate of heaven"
+    "heading": "NPM builder"
   }
 ],
 "document": {
