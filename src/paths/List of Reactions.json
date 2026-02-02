@@ -1,12 +1,6 @@
 {
 "menus": [
   {
-    "heading": "Flask App Structure"
-  },
-  {
-    "heading": "Install and Setup Pyinstaller"
-  },
-  {
     "heading":"List of Scientific Reactions"
   },
   {
@@ -15,9 +9,9 @@
   {
     "heading": "Alcohol, Phenol, Ether"
   },
-  {
+ {
     "heading": "Aldehyde, Ketone, Carbooxalix Acid"
-  }
+  },
   {
     "heading": "Nitro Compound"
   }
