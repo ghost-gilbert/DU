@@ -1,0 +1,32 @@
+{
+"menus": [
+  {
+    "heading": "Flask App Structure"
+  },
+  {
+    "heading": "Install and Setup Pyinstaller"
+  },
+  {
+    "heading":"List of Scientific Reactions"
+  },
+  {
+    "heading": "Haloalkane and Haloarene"
+  },
+  {
+    "heading": "Alcohol, Phenol, Ether"
+  },
+  {
+    "heading": "Aldehyde, Ketone, Carbooxalix Acid"
+  }
+  {
+    "heading": "Nitro Compound"
+  }
+],
+"document": {
+    "heading": "List of Scientific Reactions",
+    "author": "Kumar Harsh",
+    "date": "02/02/2026",
+    "category": "Chemistry",
+    "path": "../docs/List of Reactions"
+  }
+}
